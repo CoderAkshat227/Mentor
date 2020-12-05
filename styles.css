@@ -3,6 +3,10 @@
 .body {
     background-color:#29CFFF;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
 }
 .carousel-item {
     height: 100vh;
@@ -55,6 +59,14 @@
     text-align: center;
     padding-right: 0px;
     padding-left: 20px;
+    padding-top: 5px;
+    position:relative;
+    left:0px;
+    top:-7px;
+}
+.text2m {
+    font-size: 35px;
+    text-align: center;
 }
 .text3 {
     font-size: 35px;
@@ -73,7 +85,8 @@
 }
 .headline1 {
     font-size: 100px;
-    padding-right: 243px;
+    padding-right: 248px;
+    padding-top: 220px;
 }
 .headline2 {
     font-size: 100px;
@@ -90,7 +103,7 @@
 .uiheadline {
     text-align: left;
     padding-left: 240px;
-    padding-top: 60px;
+    padding-top: 225px;
     font-size: 100px;
 }
 .uitext {
@@ -105,13 +118,13 @@
 }
 .img {
     float: left; 
-    padding-top: 170px;
+    padding-top: 10px;
     padding-left: 175px;
 }
 .img1 {
     float: right; 
-    padding-top: 200px;
-    padding-right: 475px;
+    padding-top: 75px;
+    padding-right: 200px;
     max-width: 100%;
     height:auto;
 }
@@ -122,4 +135,16 @@
 .highconttxt {
     padding-bottom: 300px;
     font-size: 35px;
+}
+.slideshow{
+    padding-bottom: 100px;
+    background-color: #29CFFF;
+}
+.move-down {
+    padding-top: 100px;
+}
+.headline-mentor {
+    font-size: 100px;
+    padding-bottom: 25px;
+    padding-top:120px;
 }
