@@ -2,6 +2,7 @@
 
 .body {
     background-color:#29CFFF;
+    overflow: hidden;
 }
 .carousel-item {
     height: 100vh;
