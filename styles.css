@@ -1,7 +1,8 @@
 
 
 .body {
-    overflow-y: hidden;
+    overflow: visible;
+    background-color:#29CFFF;
 }
 .carousel-item {
     height: 100vh;
